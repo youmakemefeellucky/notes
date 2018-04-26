@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Roboto+Mono');
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+body {
+  font-size: 100%;
+  background-color: #1D3A1C;
+  color: #FFFFEE;
+}
+h1 {
+  font-family: 'Cutive mono', monospace !important;
+  font-size: 5em;
+  text-align: center;
+  position: fixed;
+  text-decoration: wavy underline;
+}
+h2, #box {
+  font-family: 'Cutive mono', monospace !important;
+  font-size: 2em;
+  font-style: italic;
+  margin-top: 5em;
+}
+h3 {
+  font-family: 'Open sans', sans-serif !important;
+  font-style: italic;
+}
+p {
+  font-family: 'Jeju Gothic', sans-serif !important;
+  line-height: 2;
+}
+a {
+  color: #FFFFEE;
+}
+a:hover {
+  color: #FFFFEE;
+  text-decoration: none;
+}
+img {
+  margin: 25px 10px 25px 0px ;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: contain;
+}
+
+#blue_photo {
+  position: fixed;
+  width: 330px;
+}
+
+#box {
+  border-style: solid;
+  border-color: inherit;
+  padding: 0.5em;
+  margin: 0.5em;
+  text-align: center;
+}
